@@ -36,7 +36,7 @@ public class Test {
 		Method method[]=clazz.getDeclaredMethods();
 		StandardEvaluationContext contextt=new StandardEvaluationContext();
 		contextt.registerFunction("display", method[0]);
-		contextt.setVariable("s", "lolwa");
+		contextt.setVariable("s", "suryyyya");
 		ExpressionParser ep=new SpelExpressionParser();
 		Expression expr3=ep.parseExpression("#display(#s)");
 		expr3.getValue(contextt);
